@@ -12,7 +12,7 @@ Project is created with:
 
 ## Implementation
 
-###Registering Users
+*Registering Users
 Out of the box .NET provided a registration method with identity frmework.
 
 ```  public async Task<IHttpActionResult> Register(RegisterBindingModel model)
@@ -46,7 +46,7 @@ $.ajax({
                     }
                 });
 ```
-###Generating Token
+*Generating Token
 
 The following auth configuration helping the user to genrate and modify the token.
 ```
